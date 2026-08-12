@@ -1,0 +1,142 @@
+[
+  {
+    "id": "1",
+    "name": "Spaghetti Bolognese",
+    "calories": 620,
+    "isVegan": false,
+    "image": "https://images.unsplash.com/photo-1551892374-ecf8754cf8b0"
+  },
+  {
+    "id": "2",
+    "name": "Vegan Buddha Bowl",
+    "calories": 430,
+    "isVegan": true,
+    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd"
+  },
+  {
+    "id": "3",
+    "name": "Chicken Curry",
+    "calories": 560,
+    "isVegan": false,
+    "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398"
+  },
+  {
+    "id": "4",
+    "name": "Avocado Toast",
+    "calories": 320,
+    "isVegan": true,
+    "image": "https://images.unsplash.com/photo-1541519227354-08fa5d50c44d"
+  },
+  {
+    "id": "5",
+    "name": "Beef Burger",
+    "calories": 780,
+    "isVegan": false,
+    "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd"
+  },
+  {
+    "id": "6",
+    "name": "Vegan Tacos",
+    "calories": 410,
+    "isVegan": true,
+    "image": "https://images.unsplash.com/photo-1552332386-f8dd00dc2f85"
+  },
+  {
+    "id": "7",
+    "name": "Grilled Salmon",
+    "calories": 470,
+    "isVegan": false,
+    "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288"
+  },
+  {
+    "id": "8",
+    "name": "Mushroom Risotto",
+    "calories": 520,
+    "isVegan": true,
+    "image": "https://images.unsplash.com/photo-1476124369491-e7addf5db371"
+  },
+  {
+    "id": "9",
+    "name": "Chicken Caesar Salad",
+    "calories": 390,
+    "isVegan": false,
+    "image": "https://images.unsplash.com/photo-1546793665-c74683f339c1"
+  },
+  {
+    "id": "10",
+    "name": "Vegan Lentil Soup",
+    "calories": 280,
+    "isVegan": true,
+    "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd"
+  },
+  {
+    "id": "11",
+    "name": "Pepperoni Pizza",
+    "calories": 850,
+    "isVegan": false,
+    "image": "https://images.unsplash.com/photo-1579751626657-72bc17010498"
+  },
+  {
+    "id": "12",
+    "name": "Vegan Pasta Primavera",
+    "calories": 460,
+    "isVegan": true,
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601"
+  },
+  {
+    "id": "13",
+    "name": "Chicken Wrap",
+    "calories": 440,
+    "isVegan": false,
+    "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f"
+  },
+  {
+    "id": "14",
+    "name": "Falafel Plate",
+    "calories": 510,
+    "isVegan": true,
+    "image": "https://images.unsplash.com/photo-1593001874117-c99c800e3eb2"
+  },
+  {
+    "id": "15",
+    "name": "Beef Lasagna",
+    "calories": 720,
+    "isVegan": false,
+    "image": "https://images.unsplash.com/photo-1574894709920-11b28e7367e3"
+  },
+  {
+    "id": "16",
+    "name": "Vegan Vegetable Curry",
+    "calories": 380,
+    "isVegan": true,
+    "image": "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd"
+  },
+  {
+    "id": "17",
+    "name": "Pancakes",
+    "calories": 450,
+    "isVegan": false,
+    "image": "https://images.unsplash.com/photo-1528207776546-365bb710ee93"
+  },
+  {
+    "id": "18",
+    "name": "Vegan Smoothie Bowl",
+    "calories": 290,
+    "isVegan": true,
+    "image": "https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38"
+  },
+  {
+    "id": "19",
+    "name": "Chicken Ramen",
+    "calories": 610,
+    "isVegan": false,
+    "image": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624"
+  },
+  {
+    "id": "20",
+    "name": "Vegan Stir Fry",
+    "calories": 350,
+    "isVegan": true,
+    "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19"
+  }
+]
