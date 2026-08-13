@@ -1,23 +1,35 @@
-/*import Navbar from "./components/Navbar";
-import Sidebar from "./components/Sidebar";
-import Footer from "./components/Footer";*/
-import Recipes from "./components/Recipes";
-import RecipeCard from "./components/RecipeCard";
 import "./App.css";
+import { Routes, Route } from "react-router-dom";
+
+import Navbar from "./components/Navbar";
+import Sidebar from "./components/Sidebar";
+import Footer from "./components/Footer";
+
+import MainPage from "./pages/MainPage";
+import AboutPage from "./pages/AboutPage";
+//import ItemDetailsPage from "./pages/ItemDetailsPage";
+import NotFoundPage from "./pages/NotFoundPage";
 
 function App() {
   return (
-    <div className="navbar-container">
-     
+    <div className="App">
+     <Navbar /> 
+
       <div className="main-layout">
-       
+
         <main className="content">
-          <h1>Welcome to the project RECIPE</h1>
-          <Recipes/>
+          <Routes>
+            <Route path="/" element={<MainPage />} />
+            <Route path="/about" element={<AboutPage />} />
+            {/*<Route path="/ItemDetails/:id" element={<ItemDetailsPage />} />*/}
+            <Route path="*" element={<NotFoundPage />} />
+          </Routes>
         </main>
       </div>
-     
+
+      <Footer />
     </div>
   );
 }
+
 export default App;

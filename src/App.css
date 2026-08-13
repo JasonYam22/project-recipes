@@ -39,3 +39,29 @@ body {
   padding: 20px;
   text-align: center;
 }
+
+.recipe{
+  display:flex;
+  justify-content: center;
+}
+.recipe-image {
+  display:flex;
+  width: 250px;
+  height: 180px;
+  object-fit: cover;
+  
+}
+
+.about-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.team-member {
+  margin-top: 20px;
+}
+
+.team-member a {
+  margin-right: 15px;
+}

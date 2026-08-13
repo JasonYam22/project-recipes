@@ -4,139 +4,485 @@
     "name": "Spaghetti Bolognese",
     "calories": 620,
     "isVegan": false,
-    "image": "https://images.unsplash.com/photo-1551892374-ecf8754cf8b0"
+    "image": "https://images.unsplash.com/photo-1551892374-ecf8754cf8b0",
+    "ingredients": [
+      "200g spaghetti",
+      "150g ground beef",
+      "1/2 onion, chopped",
+      "1 garlic clove, minced",
+      "200g tomato sauce",
+      "1 tbsp olive oil",
+      "Salt and pepper"
+    ],
+    "recipe": [
+      "Cook the spaghetti according to the package instructions.",
+      "Heat olive oil in a pan and cook the onion and garlic.",
+      "Add the ground beef and cook until browned.",
+      "Add the tomato sauce and simmer for 10 minutes.",
+      "Season with salt and pepper.",
+      "Serve the sauce over the spaghetti."
+    ]
   },
   {
     "id": "2",
     "name": "Vegan Buddha Bowl",
     "calories": 430,
     "isVegan": true,
-    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd"
+    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd",
+    "ingredients": [
+      "100g cooked quinoa",
+      "100g chickpeas",
+      "1/2 avocado",
+      "50g spinach",
+      "1 small carrot",
+      "50g red cabbage",
+      "1 tbsp tahini",
+      "1 tsp lemon juice"
+    ],
+    "recipe": [
+      "Cook the quinoa and let it cool slightly.",
+      "Drain and rinse the chickpeas.",
+      "Slice the avocado, carrot and cabbage.",
+      "Place the quinoa in a bowl.",
+      "Arrange the vegetables and chickpeas on top.",
+      "Drizzle with tahini and lemon juice."
+    ]
   },
   {
     "id": "3",
     "name": "Chicken Curry",
     "calories": 560,
     "isVegan": false,
-    "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398"
+    "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398",
+    "ingredients": [
+      "200g chicken breast",
+      "1/2 onion",
+      "1 garlic clove",
+      "150ml coconut milk",
+      "1 tbsp curry powder",
+      "100g cooked rice",
+      "1 tbsp vegetable oil",
+      "Salt"
+    ],
+    "recipe": [
+      "Cut the chicken into small pieces.",
+      "Heat the oil and cook the onion and garlic.",
+      "Add the chicken and cook until lightly browned.",
+      "Add the curry powder and stir well.",
+      "Pour in the coconut milk and simmer for 15 minutes.",
+      "Serve with cooked rice."
+    ]
   },
   {
     "id": "4",
     "name": "Avocado Toast",
     "calories": 320,
     "isVegan": true,
-    "image": "https://images.unsplash.com/photo-1541519227354-08fa5d50c44d"
+    "image": "https://images.unsplash.com/photo-1541519227354-08fa5d50c44d",
+    "ingredients": [
+      "2 slices whole grain bread",
+      "1 ripe avocado",
+      "1 tsp lemon juice",
+      "Salt",
+      "Black pepper",
+      "Chili flakes"
+    ],
+    "recipe": [
+      "Toast the bread until golden.",
+      "Mash the avocado in a bowl.",
+      "Mix in the lemon juice, salt and pepper.",
+      "Spread the avocado mixture over the toast.",
+      "Finish with chili flakes."
+    ]
   },
   {
     "id": "5",
     "name": "Beef Burger",
     "calories": 780,
     "isVegan": false,
-    "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd"
+    "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd",
+    "ingredients": [
+      "180g ground beef",
+      "1 burger bun",
+      "1 slice cheddar cheese",
+      "2 lettuce leaves",
+      "2 tomato slices",
+      "2 onion slices",
+      "1 tbsp burger sauce",
+      "Salt and pepper"
+    ],
+    "recipe": [
+      "Shape the ground beef into a burger patty.",
+      "Season with salt and pepper.",
+      "Cook the patty for about 4 minutes on each side.",
+      "Place the cheese on the patty and allow it to melt.",
+      "Toast the burger bun.",
+      "Assemble with lettuce, tomato, onion and sauce."
+    ]
   },
   {
     "id": "6",
     "name": "Vegan Tacos",
     "calories": 410,
     "isVegan": true,
-    "image": "https://images.unsplash.com/photo-1552332386-f8dd00dc2f85"
+    "image": "https://images.unsplash.com/photo-1552332386-f8dd00dc2f85",
+    "ingredients": [
+      "3 small tortillas",
+      "100g black beans",
+      "50g corn",
+      "1/2 avocado",
+      "1 small tomato",
+      "1/4 red onion",
+      "Fresh coriander",
+      "1/2 lime"
+    ],
+    "recipe": [
+      "Warm the tortillas in a dry pan.",
+      "Heat the black beans and corn.",
+      "Dice the avocado, tomato and onion.",
+      "Fill each tortilla with beans and corn.",
+      "Add the vegetables and coriander.",
+      "Finish with fresh lime juice."
+    ]
   },
   {
     "id": "7",
     "name": "Grilled Salmon",
     "calories": 470,
     "isVegan": false,
-    "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288"
+    "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288",
+    "ingredients": [
+      "200g salmon fillet",
+      "1 tbsp olive oil",
+      "1/2 lemon",
+      "1 garlic clove",
+      "100g broccoli",
+      "Salt and pepper"
+    ],
+    "recipe": [
+      "Season the salmon with salt, pepper and garlic.",
+      "Heat olive oil in a grill pan.",
+      "Cook the salmon for about 4 minutes on each side.",
+      "Steam the broccoli until tender.",
+      "Squeeze lemon juice over the salmon.",
+      "Serve with the broccoli."
+    ]
   },
   {
     "id": "8",
     "name": "Mushroom Risotto",
     "calories": 520,
     "isVegan": true,
-    "image": "https://images.unsplash.com/photo-1476124369491-e7addf5db371"
+    "image": "https://images.unsplash.com/photo-1476124369491-e7addf5db371",
+    "ingredients": [
+      "150g arborio rice",
+      "150g mushrooms",
+      "1/2 onion",
+      "1 garlic clove",
+      "500ml vegetable stock",
+      "1 tbsp olive oil",
+      "2 tbsp nutritional yeast",
+      "Salt and pepper"
+    ],
+    "recipe": [
+      "Slice the mushrooms and chop the onion.",
+      "Cook the onion, garlic and mushrooms in olive oil.",
+      "Add the rice and stir for one minute.",
+      "Gradually add the vegetable stock while stirring.",
+      "Cook until the rice is creamy and tender.",
+      "Stir in nutritional yeast and season to taste."
+    ]
   },
   {
     "id": "9",
     "name": "Chicken Caesar Salad",
     "calories": 390,
     "isVegan": false,
-    "image": "https://images.unsplash.com/photo-1546793665-c74683f339c1"
+    "image": "https://images.unsplash.com/photo-1546793665-c74683f339c1",
+    "ingredients": [
+      "150g chicken breast",
+      "100g romaine lettuce",
+      "30g croutons",
+      "20g Parmesan cheese",
+      "2 tbsp Caesar dressing",
+      "Salt and pepper"
+    ],
+    "recipe": [
+      "Season and grill the chicken until fully cooked.",
+      "Slice the chicken into strips.",
+      "Wash and chop the lettuce.",
+      "Place the lettuce in a large bowl.",
+      "Add the chicken, croutons and Parmesan.",
+      "Drizzle with Caesar dressing and toss."
+    ]
   },
   {
     "id": "10",
     "name": "Vegan Lentil Soup",
     "calories": 280,
     "isVegan": true,
-    "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd"
+    "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd",
+    "ingredients": [
+      "150g cooked lentils",
+      "1 carrot",
+      "1/2 onion",
+      "1 celery stalk",
+      "1 garlic clove",
+      "400ml vegetable stock",
+      "100g chopped tomatoes",
+      "1 tsp olive oil"
+    ],
+    "recipe": [
+      "Chop the carrot, onion and celery.",
+      "Cook the vegetables and garlic in olive oil for 5 minutes.",
+      "Add the lentils and chopped tomatoes.",
+      "Pour in the vegetable stock.",
+      "Simmer for about 20 minutes.",
+      "Season and serve hot."
+    ]
   },
   {
     "id": "11",
     "name": "Pepperoni Pizza",
     "calories": 850,
     "isVegan": false,
-    "image": "https://images.unsplash.com/photo-1579751626657-72bc17010498"
+    "image": "https://images.unsplash.com/photo-1579751626657-72bc17010498",
+    "ingredients": [
+      "1 pizza dough",
+      "100g tomato sauce",
+      "120g mozzarella cheese",
+      "60g pepperoni",
+      "1 tsp dried oregano",
+      "1 tsp olive oil"
+    ],
+    "recipe": [
+      "Preheat the oven to 220°C.",
+      "Roll out the pizza dough.",
+      "Spread the tomato sauce over the dough.",
+      "Add mozzarella and pepperoni.",
+      "Sprinkle with oregano.",
+      "Bake for 12 to 15 minutes until golden."
+    ]
   },
   {
     "id": "12",
     "name": "Vegan Pasta Primavera",
     "calories": 460,
     "isVegan": true,
-    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601"
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601",
+    "ingredients": [
+      "200g pasta",
+      "1/2 zucchini",
+      "1/2 bell pepper",
+      "50g cherry tomatoes",
+      "50g broccoli",
+      "1 garlic clove",
+      "1 tbsp olive oil",
+      "Fresh basil"
+    ],
+    "recipe": [
+      "Cook the pasta according to the package instructions.",
+      "Chop all the vegetables.",
+      "Heat olive oil and cook the garlic.",
+      "Add the vegetables and sauté until tender.",
+      "Add the cooked pasta and mix well.",
+      "Finish with fresh basil."
+    ]
   },
   {
     "id": "13",
     "name": "Chicken Wrap",
     "calories": 440,
     "isVegan": false,
-    "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f"
+    "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f",
+    "ingredients": [
+      "1 large tortilla",
+      "150g chicken breast",
+      "50g lettuce",
+      "1 small tomato",
+      "30g grated cheese",
+      "1 tbsp yogurt sauce",
+      "Salt and pepper"
+    ],
+    "recipe": [
+      "Season and cook the chicken until fully cooked.",
+      "Cut the chicken into strips.",
+      "Warm the tortilla.",
+      "Add lettuce, tomato, chicken and cheese.",
+      "Drizzle with yogurt sauce.",
+      "Fold the tortilla tightly and serve."
+    ]
   },
   {
     "id": "14",
     "name": "Falafel Plate",
     "calories": 510,
     "isVegan": true,
-    "image": "https://images.unsplash.com/photo-1593001874117-c99c800e3eb2"
+    "image": "https://images.unsplash.com/photo-1593001874117-c99c800e3eb2",
+    "ingredients": [
+      "6 falafel balls",
+      "80g hummus",
+      "1 tomato",
+      "1/2 cucumber",
+      "50g lettuce",
+      "1 small pita bread",
+      "1 tbsp tahini",
+      "Fresh parsley"
+    ],
+    "recipe": [
+      "Bake or fry the falafel until crispy.",
+      "Chop the tomato, cucumber and lettuce.",
+      "Warm the pita bread.",
+      "Spread the hummus on a serving plate.",
+      "Add the falafel and vegetables.",
+      "Drizzle with tahini and garnish with parsley."
+    ]
   },
   {
     "id": "15",
     "name": "Beef Lasagna",
     "calories": 720,
     "isVegan": false,
-    "image": "https://images.unsplash.com/photo-1574894709920-11b28e7367e3"
+    "image": "https://images.unsplash.com/photo-1574894709920-11b28e7367e3",
+    "ingredients": [
+      "6 lasagna sheets",
+      "200g ground beef",
+      "200g tomato sauce",
+      "150ml béchamel sauce",
+      "100g mozzarella cheese",
+      "1/2 onion",
+      "1 garlic clove",
+      "1 tbsp olive oil"
+    ],
+    "recipe": [
+      "Preheat the oven to 190°C.",
+      "Cook the onion and garlic in olive oil.",
+      "Add the beef and cook until browned.",
+      "Add the tomato sauce and simmer for 10 minutes.",
+      "Layer the meat sauce, pasta sheets and béchamel in a baking dish.",
+      "Top with mozzarella and bake for about 30 minutes."
+    ]
   },
   {
     "id": "16",
     "name": "Vegan Vegetable Curry",
     "calories": 380,
     "isVegan": true,
-    "image": "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd"
+    "image": "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd",
+    "ingredients": [
+      "100g chickpeas",
+      "1 small potato",
+      "1 carrot",
+      "1/2 bell pepper",
+      "150ml coconut milk",
+      "1 tbsp curry powder",
+      "1/2 onion",
+      "1 tsp vegetable oil"
+    ],
+    "recipe": [
+      "Chop the vegetables into small pieces.",
+      "Cook the onion in vegetable oil until soft.",
+      "Add the curry powder and stir.",
+      "Add the vegetables and chickpeas.",
+      "Pour in the coconut milk.",
+      "Simmer for about 20 minutes until the vegetables are tender."
+    ]
   },
   {
     "id": "17",
     "name": "Pancakes",
     "calories": 450,
     "isVegan": false,
-    "image": "https://images.unsplash.com/photo-1528207776546-365bb710ee93"
+    "image": "https://images.unsplash.com/photo-1528207776546-365bb710ee93",
+    "ingredients": [
+      "120g flour",
+      "1 egg",
+      "150ml milk",
+      "1 tbsp sugar",
+      "1 tsp baking powder",
+      "1 tbsp butter",
+      "2 tbsp maple syrup"
+    ],
+    "recipe": [
+      "Mix the flour, sugar and baking powder.",
+      "Add the egg and milk.",
+      "Whisk until the batter is smooth.",
+      "Melt a little butter in a frying pan.",
+      "Cook each pancake for about 2 minutes on each side.",
+      "Serve with maple syrup."
+    ]
   },
   {
     "id": "18",
     "name": "Vegan Smoothie Bowl",
     "calories": 290,
     "isVegan": true,
-    "image": "https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38"
+    "image": "https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38",
+    "ingredients": [
+      "1 frozen banana",
+      "100g frozen berries",
+      "100ml oat milk",
+      "30g granola",
+      "1 tbsp chia seeds",
+      "Fresh berries"
+    ],
+    "recipe": [
+      "Place the frozen banana and berries in a blender.",
+      "Add the oat milk.",
+      "Blend until thick and smooth.",
+      "Pour the smoothie into a bowl.",
+      "Top with granola and chia seeds.",
+      "Decorate with fresh berries."
+    ]
   },
   {
     "id": "19",
     "name": "Chicken Ramen",
     "calories": 610,
     "isVegan": false,
-    "image": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624"
+    "image": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624",
+    "ingredients": [
+      "150g ramen noodles",
+      "150g chicken breast",
+      "500ml chicken stock",
+      "1 egg",
+      "1 tbsp soy sauce",
+      "1 spring onion",
+      "50g mushrooms",
+      "1 tsp sesame oil"
+    ],
+    "recipe": [
+      "Cook the chicken until fully cooked and slice it.",
+      "Heat the chicken stock in a saucepan.",
+      "Add soy sauce and sesame oil.",
+      "Cook the noodles in the broth.",
+      "Boil the egg separately and cut it in half.",
+      "Serve the noodles with chicken, egg, mushrooms and spring onion."
+    ]
   },
   {
     "id": "20",
     "name": "Vegan Stir Fry",
     "calories": 350,
     "isVegan": true,
-    "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19"
+    "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19",
+    "ingredients": [
+      "100g tofu",
+      "1/2 bell pepper",
+      "1 small carrot",
+      "80g broccoli",
+      "50g snap peas",
+      "1 tbsp soy sauce",
+      "1 tsp sesame oil",
+      "1 garlic clove"
+    ],
+    "recipe": [
+      "Cut the tofu and vegetables into bite-sized pieces.",
+      "Heat the sesame oil in a wok or frying pan.",
+      "Cook the tofu until lightly golden.",
+      "Add the garlic and vegetables.",
+      "Stir fry for 5 to 7 minutes.",
+      "Add the soy sauce, mix well and serve."
+    ]
   }
 ]
