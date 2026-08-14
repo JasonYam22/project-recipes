@@ -2,14 +2,14 @@ import { useState } from "react";
 import recipesData from "../assets/Recipe.json";
 import RecipeCard from "./RecipeCard";
 
-function Recipes() {
-const [showRecipe, setShowRecipe] = useState(recipesData)
+function Recipes ({allRecipes, setAllRecipes}) {
+
 
 function handleDeleteButton(id){
-  let filterRecipes = showRecipe.filter((recipe) =>{
+  let filterRecipes = allRecipes.filter((recipe) =>{
     return recipe.id !== id;
 })
-  setShowRecipe(filterRecipes);
+  setAllRecipes(filterRecipes);
 }
   return (
     <div>
