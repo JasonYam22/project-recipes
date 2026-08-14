@@ -4,6 +4,12 @@ import RecipeCard from "./RecipeCard";
 
 function Recipes ({allRecipes, setAllRecipes}) {
 
+function handleUpdateButton(id){
+  const filterRecipes = allRecipes.filter((recipe) => {
+    return recipe.id !== id;
+  })
+  setAllRecipes(allRecipes);
+}
 
 function handleDeleteButton(id){
   let filterRecipes = allRecipes.filter((recipe) =>{
