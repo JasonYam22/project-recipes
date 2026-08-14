@@ -27,9 +27,9 @@ const [ allRecipes, setAllRecipes ] = useState(recipesJSON)
           <Routes>
             <Route path="/" element={<MainPage allRecipes={allRecipes} setAllRecipes={setAllRecipes} />} />
             <Route path="/about" element={<AboutPage />} />
-            <Route path="/ItemDetails/:id" element={<ItemDetailsPage />} />
             <Route path="*" element={<NotFoundPage />} />
-
+            <Route path="/recipes/:id"element={<ItemDetailsPage allRecipes={allRecipes} />}
+/>
           </Routes>
         </main>
       </div>

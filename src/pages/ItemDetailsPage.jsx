@@ -1,21 +1,20 @@
 import { useParams } from "react-router-dom"
-import recipesData from "../assets/Recipe.json"
 
 function ItemDetailsPage(props) {
-    
-    const params = useParams();
-    const id = params.id;
-    const recipe = recipesData.find((recipe) => recipe.id === id)
-    
-    //const foodRecipe = props.allRep    
+
+    const {id} = useParams();
+    const recipe = props.allRecipes.find((recipe) => recipe.id === id)
+    if (!recipe) {
+        return <p>Recipe not found</p>;
+}  
     
     return(
         <div className = "item-details-page">
             <h1> {recipe.name}</h1>
             <img className= "recipe-image" src={recipe.image} alt={recipe.name}/>
-            <ul> {recipe.ingredients.map((ingredients, index) => {return <li key={index}>{ingredients} </li>})}
+            <ul> {recipe.ingredients.map((ingredient, id) => {return <li key={id}>{ingredient} </li>})}
             </ul>
-            <ul> {recipe.recipe.map((recipe, index) => {return <li key={index}>{recipe}</li>})} </ul>
+            <ul> {recipe.recipe.map((step, id) => {return <li key={id}>{step}</li>})} </ul>
             
         </div>
     )

@@ -1,10 +1,10 @@
 import {Link} from "react-router-dom"
 
-function RecipeCard({ recipe, handleDeleteButton }) {
+function RecipeCard({ recipe, handleDeleteButton, handleUpdate }) {
   return (
      
     <div className="Recipe" key={recipe.id}>
-      <Link to={`/itemDetails/${recipe.id}`}>
+      <Link to={`/recipes/${recipe.id}`}>
       <img className="recipe-image" src={recipe.image} alt={recipe.name} />
       <h1>Name:{recipe.name}</h1>
       
@@ -19,6 +19,7 @@ function RecipeCard({ recipe, handleDeleteButton }) {
       <p>{recipe.isVegan ? "🌱 Vegan" : "🍖 Not Vegan"}</p>
       </Link>
       <button onClick={() => handleDeleteButton(recipe.id)}>Delete</button>
+      <button onClick={() => handleUpdate(recipe.id)}>Edit</button>
     </div>
     
   );

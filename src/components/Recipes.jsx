@@ -1,36 +1,47 @@
-import { useState } from "react";
-import recipesData from "../assets/Recipe.json";
 import RecipeCard from "./RecipeCard";
+import EditRecipe from "./EditRecipe"
+import ItemDetailsPage from "../pages/ItemDetailsPage";
 
-function Recipes ({allRecipes, setAllRecipes}) {
+function Recipes({ allRecipes, setAllRecipes }) {
 
-function handleUpdateButton(id){
-  const filterRecipes = allRecipes.filter((recipe) => {
-     if (recipe.id === id) {
-      return {...recipe, calories: newCalories};
-    }
-    return recipe;
-  });
+  function handleUpdate(updatedRecipe) {
+    const updatedRecipeDeliver = allRecipes.map((recipe) => {
+      if (recipe.id === updatedRecipe.id) {
+        return updatedRecipe;
+      }
+      return recipe;
+    });
 
-  setShowRecipe(updatedRecipes);
-}
+    setAllRecipes(updatedRecipeDeliver);
+  }
 
-
-function handleDeleteButton(id){
-  let filterRecipes = allRecipes.filter((recipe) =>{
-    return recipe.id !== id;
-})
-  setAllRecipes(filterRecipes);
-}
+  function handleDeleteButton(id) {
+    let filterRecipes = allRecipes.filter((recipe) => {
+      return recipe.id !== id;
+    });
+    setAllRecipes(filterRecipes);
+  }
   return (
     <div>
       {allRecipes.map((recipe) => {
         return (
-            <RecipeCard key={recipe.id} recipe={recipe} handleDeleteButton={handleDeleteButton}/>
-        )
+          <div key={recipe.id}>
+          <RecipeCard
+            recipe={recipe}
+            handleDeleteButton={handleDeleteButton}
+            handleUpdate={handleUpdate}
+          />
+           <EditRecipe
+              recipe={recipe}
+              handleUpdate={handleUpdate} 
+            />
+           
+            </div>
+        );
       })}
+      
     </div>
   );
 }
-
+ 
 export default Recipes;
