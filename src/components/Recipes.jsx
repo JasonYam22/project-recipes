@@ -13,7 +13,7 @@ function handleDeleteButton(id){
 }
   return (
     <div>
-      {showRecipe.map((recipe) => {
+      {allRecipes.map((recipe) => {
         return (
             <RecipeCard key={recipe.id} recipe={recipe} handleDeleteButton={handleDeleteButton}/>
         )
