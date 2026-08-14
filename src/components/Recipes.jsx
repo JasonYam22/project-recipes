@@ -6,10 +6,15 @@ function Recipes ({allRecipes, setAllRecipes}) {
 
 function handleUpdateButton(id){
   const filterRecipes = allRecipes.filter((recipe) => {
-    return recipe.id !== id;
-  })
-  setAllRecipes(allRecipes);
+     if (recipe.id === id) {
+      return {...recipe, calories: newCalories};
+    }
+    return recipe;
+  });
+
+  setShowRecipe(updatedRecipes);
 }
+
 
 function handleDeleteButton(id){
   let filterRecipes = allRecipes.filter((recipe) =>{
