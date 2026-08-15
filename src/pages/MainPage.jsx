@@ -7,7 +7,7 @@ import Recipes from "../components/Recipes";
             <main className = "Main-page">
         <h1>Project Recipes</h1>
         <Recipes allRecipes={allRecipes} setAllRecipes={setAllRecipes}/>
-        {/*<AddRecipeSection allRecipes={allRecipes} setAllRecipes={setAllRecipes}/>*/}
+    
         <p>Find Your Next Meal</p>
         
         </main>
