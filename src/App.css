@@ -68,8 +68,8 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-height: 150px;
-  padding: 12px 4%;
+  min-height: 10px;
+  padding: 0px 4%;
   background: rgba(29, 30, 31, 0.507);
   border-bottom: 1px solid var(--border);
 }
@@ -88,7 +88,7 @@ nav > button {
 nav > div {
   position: absolute;
   top: 56px;
-  right: 4%;
+  right:6%;
   min-width: 155px;
   padding: 10px;
   background: var(--cream);
@@ -191,24 +191,36 @@ nav br {
   margin: 7px 16px;
   line-height: 1.4;
 }
-
-.Recipe > button {
-  position:absolute;
-  top:350px;
-  right: 16px;
-  width: 35px;
-  height: 35px;
-  border: 2px solid #555;
-  border-radius:0;
+.recipe-buttons {
+  display: flex;
+  gap:8px;
+  padding: 0 16px 16px;
+  align-items: flex-start;
+}
+.recipe-buttons > div{
+  flex:1;
+}
+.recipe-buttons > div > button {
+  width:100%;
+  background: rgb(105, 105, 105);
+  color:white;
+  cursor: pointer;
+}
+.recipe-buttons > button {
+  width: 36px;
+  height: 36px;
+  padding: 0;
   display:flex;
   align-items: center;
   justify-content: center;
-  font-size: 30px;
-  
-  background: var(--danger);
+  font-size: 20px;
+  background:rgb(105, 105, 105);
+}
+.recipe-buttons > button:hover {
+  background: var(--danger)
 }
 
-.Recipe > button:hover {
+.recipe-buttons > div > button:hover {
   background: #893c3c;
 }
 

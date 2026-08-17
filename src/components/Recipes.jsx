@@ -1,10 +1,8 @@
 import RecipeCard from "./RecipeCard";
-import EditRecipe from "./EditRecipe"
 import ItemDetailsPage from "../pages/ItemDetailsPage";
-import AddRecipeSection from "./AddRecipeSection"
+import AddRecipeSection from "./AddRecipeSection";
 
 function Recipes({ allRecipes, setAllRecipes }) {
-
   function handleUpdate(updatedRecipe) {
     const updatedRecipeDeliver = allRecipes.map((recipe) => {
       if (recipe.id === updatedRecipe.id) {
@@ -16,7 +14,6 @@ function Recipes({ allRecipes, setAllRecipes }) {
     setAllRecipes(updatedRecipeDeliver);
   }
 
-
   function handleDeleteButton(id) {
     let filterRecipes = allRecipes.filter((recipe) => {
       return recipe.id !== id;
@@ -25,27 +22,20 @@ function Recipes({ allRecipes, setAllRecipes }) {
   }
   return (
     <div>
-        <AddRecipeSection allRecipes={allRecipes} setAllRecipes={setAllRecipes}/>
+      <AddRecipeSection allRecipes={allRecipes} setAllRecipes={setAllRecipes} />
       {allRecipes.map((recipe) => {
         return (
           <div key={recipe.id}>
-          <RecipeCard
-            recipe={recipe}
-            handleDeleteButton={handleDeleteButton}
-            handleUpdate={handleUpdate}
-          />
-         
-         <EditRecipe
+            <RecipeCard
               recipe={recipe}
-              handleUpdate={handleUpdate} 
+              handleDeleteButton={handleDeleteButton}
+              handleUpdate={handleUpdate}
             />
-           
             </div>
         );
       })}
-      
     </div>
   );
 }
- 
+
 export default Recipes;

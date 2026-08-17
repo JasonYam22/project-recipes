@@ -1,4 +1,5 @@
 import {Link} from "react-router-dom"
+import EditRecipe from "./EditRecipe";
 
 function RecipeCard({ recipe, handleDeleteButton, handleUpdate }) {
   return (
@@ -18,8 +19,21 @@ function RecipeCard({ recipe, handleDeleteButton, handleUpdate }) {
       </p>
       <p>{recipe.isVegan ? "🌱 Vegan" : "🍖 Not Vegan"}</p>
       </Link>
-      <button onClick={() => handleDeleteButton(recipe.id)}>🗑</button>
+      <div className="recipe-buttons">
+
+        <EditRecipe
+          recipe={recipe}
+          handleUpdate={handleUpdate}
+        />
+
+        <button onClick={() => handleDeleteButton(recipe.id)}>
+          🗑
+        </button>
+
+      </div>
     </div>
+    
+    
     
   );
 }
