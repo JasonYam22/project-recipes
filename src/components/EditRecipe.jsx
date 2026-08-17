@@ -22,12 +22,17 @@ function EditRecipe({ recipe, handleUpdate }) {
     const updatedRecipe= {...editedRecipe, ingredients: editedRecipe.ingredients.split(","), recipe: editedRecipe.recipe.split("\n")
     }
     handleUpdate(updatedRecipe);
+    setIsEditing(false);
   }
 
   return (
     <div>
-        <button onClick={() => setIsEditing(!isEditing)}> Edit </button>
-        <form onSubmit={handleSubmit}>
+        <button onClick={() => setIsEditing(!isEditing)}>
+  {isEditing ? "Cancel" : "Edit"}
+</button>
+
+{isEditing && (
+  <form onSubmit={handleSubmit}>
       <input name="name" value={editedRecipe.name} onChange={handleChange} />
       <input name="calories" value={editedRecipe.calories} onChange={handleChange} />
       <input name="image" value={editedRecipe.image} onChange={handleChange} />
@@ -37,7 +42,9 @@ function EditRecipe({ recipe, handleUpdate }) {
     }}/>
     <button type="submit"> Save </button>
    </form>
+)}
    </div>
   );
 }
 export default EditRecipe;
+

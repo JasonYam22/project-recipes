@@ -6,9 +6,9 @@ function RecipeCard({ recipe, handleDeleteButton, handleUpdate }) {
     <div className="Recipe" key={recipe.id}>
       <Link to={`/recipes/${recipe.id}`}>
       <img className="recipe-image" src={recipe.image} alt={recipe.name} />
-      <h1>Name:{recipe.name}</h1>
+      <h1>{recipe.name}</h1>
       
-      <p>Kcal: {recipe.calories}</p>
+      <p>{recipe.calories} Kcals</p>
       <p>
         {recipe.calories <= 500
           ? "ദ്ദി(˵ •̀ ᴗ - ˵ ) ✧ Low Calories"
@@ -18,8 +18,7 @@ function RecipeCard({ recipe, handleDeleteButton, handleUpdate }) {
       </p>
       <p>{recipe.isVegan ? "🌱 Vegan" : "🍖 Not Vegan"}</p>
       </Link>
-      <button onClick={() => handleDeleteButton(recipe.id)}>Delete</button>
-      <button onClick={() => handleUpdate(recipe.id)}>Edit</button>
+      <button onClick={() => handleDeleteButton(recipe.id)}>🗑</button>
     </div>
     
   );

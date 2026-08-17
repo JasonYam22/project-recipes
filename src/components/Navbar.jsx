@@ -7,6 +7,7 @@ function Navbar() {
 
   return (
     <nav>
+       <h1 className="titleNav">Project Recipes</h1>
       <button onClick={() => setMenuOpen(!menuOpen)}>☰</button>
       {menuOpen && (
         <div>
