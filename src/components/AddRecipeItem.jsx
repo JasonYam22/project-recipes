@@ -1,6 +1,7 @@
 import { useState } from "react";
 
-function AddRecipeItem({ allRecipes, setAllRecipes, setIsSectionOpen }) {
+function AddRecipeItem({ allRecipes, setAllRecipes, setIsModalOpen}) {
+
   const [editedRecipe, setEditedRecipe] = useState({
     id: "",
     name: "",
@@ -10,6 +11,7 @@ function AddRecipeItem({ allRecipes, setAllRecipes, setIsSectionOpen }) {
     isVegan: false,
     image: "",
   });
+  
   function handleChange(event) {
     const { name, value } = event.target;
     setEditedRecipe({ ...editedRecipe, [name]: value });
@@ -17,6 +19,7 @@ function AddRecipeItem({ allRecipes, setAllRecipes, setIsSectionOpen }) {
 
   function handleSubmit(event) {
     event.preventDefault();
+    setIsModalOpen(false);
 
     const newRecipe = {
       ...editedRecipe,
@@ -26,59 +29,64 @@ function AddRecipeItem({ allRecipes, setAllRecipes, setIsSectionOpen }) {
     };
     
     setAllRecipes([...allRecipes, newRecipe]);
-    setIsSectionOpen(false);
+    setIsModalOpen(false);
   }
 
-  return (
-    <form onSubmit={handleSubmit}>
+ return (
+  <form onSubmit={handleSubmit}>
+    <input
+      name="name"
+      placeholder="Name"
+      value={editedRecipe.name}
+      onChange={handleChange}
+    />
+
+    <input
+      name="calories"
+      placeholder="Calories"
+      value={editedRecipe.calories}
+      onChange={handleChange}
+    />
+
+    <input
+      name="image"
+      placeholder="Image URL"
+      value={editedRecipe.image}
+      onChange={handleChange}
+    />
+
+    <textarea
+      name="ingredients"
+      placeholder="Ingredients"
+      value={editedRecipe.ingredients}
+      onChange={handleChange}
+    />
+
+    <textarea
+      name="recipe"
+      placeholder="Recipe"
+      value={editedRecipe.recipe}
+      onChange={handleChange}
+    />
+
+    <label>
       <input
-        name="name"
-        placeholder="Name"
-        value={editedRecipe.name}
-        onChange={handleChange}
-      />
-
-      <input
-        name="calories"
-        placeholder="Calories"
-        value={editedRecipe.calories}
-        onChange={handleChange}
-      />
-
-      <input
-        name="image"
-        placeholder="Image URL"
-        value={editedRecipe.image}
-        onChange={handleChange}
-      />
-
-      <textarea
-        name="ingredients"
-        placeholder="Ingredients"
-        value={editedRecipe.ingredients}
-        onChange={handleChange}
-      />
-
-      <textarea
-        name="recipe"
-        placeholder="Recipe"
-        value={editedRecipe.recipe}
-        onChange={handleChange}
-      />
-
-      <label>
-        <input
-         type="checkbox"
+        type="checkbox"
         checked={editedRecipe.isVegan}
         onChange={(e) =>
-          setEditedRecipe({...editedRecipe, isVegan: e.target.checked})
-        } 
-        />
-      </label>
+          setEditedRecipe({
+            ...editedRecipe,
+            isVegan: e.target.checked
+          })
+        }
+      />
+      Vegan
+    </label>
 
-      <button type="submit">Save recipe</button>
-    </form>
-  );
+    <button type="submit">
+      Save recipe
+    </button>
+  </form>
+);
 }
-
 export default AddRecipeItem;
