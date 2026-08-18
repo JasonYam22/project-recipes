@@ -23,7 +23,7 @@ const [ allRecipes, setAllRecipes ] = useState(recipesJSON)
 
       <div className="main-layout">
 
-        <main className="content">
+        <div className="content">
           <Routes>
             <Route path="/" element={<MainPage allRecipes={allRecipes} setAllRecipes={setAllRecipes} />} />
             <Route path="/about" element={<AboutPage />} />
@@ -31,7 +31,7 @@ const [ allRecipes, setAllRecipes ] = useState(recipesJSON)
             <Route path="/recipes/:id"element={<ItemDetailsPage allRecipes={allRecipes} />}
 />
           </Routes>
-        </main>
+        </div>
       </div>
 
       <Footer />

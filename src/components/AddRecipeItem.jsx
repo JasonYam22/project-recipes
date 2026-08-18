@@ -17,8 +17,14 @@ function AddRecipeItem({ allRecipes, setAllRecipes, setIsSectionOpen }) {
 
   function handleSubmit(event) {
     event.preventDefault();
-    
-  }
+
+    const newRecipe = {
+      ...editedRecipe,
+      id: crypto.randomUUID(),
+      ingredients: editedRecipe.ingredients.split(","),
+      recipe: editedRecipe.recipe.split("\n"),
+    };
+
     setAllRecipes([...allRecipes, newRecipe]);
     setIsSectionOpen(false);
   }
@@ -48,17 +54,27 @@ function AddRecipeItem({ allRecipes, setAllRecipes, setIsSectionOpen }) {
 
       <textarea
         name="ingredients"
-        placeholder="Ingredients, comma separated"
+        placeholder="Ingredients"
         value={editedRecipe.ingredients}
         onChange={handleChange}
       />
 
       <textarea
         name="recipe"
-        placeholder="Steps, one per line"
+        placeholder="Recipe"
         value={editedRecipe.recipe}
         onChange={handleChange}
       />
+
+      <label>
+        <input
+         type="checkbox"
+        checked={editedRecipe.isVegan}
+        onChange={(e) =>
+          setEditedRecipe({...editedRecipe, isVegan: e.target.checked})
+        } 
+        />
+      </label>
 
       <button type="submit">Save recipe</button>
     </form>
