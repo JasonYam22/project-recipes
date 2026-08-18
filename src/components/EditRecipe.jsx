@@ -34,7 +34,7 @@ function EditRecipe({ recipe, handleUpdate }) {
 {isEditing && (
   <form onSubmit={handleSubmit}>
       <input name="name" value={editedRecipe.name} onChange={handleChange} />
-      <input name="calories" value={editedRecipe.calories} onChange={handleChange} />
+      <input name="calories" type="number" value={editedRecipe.calories} onChange={handleChange} />
       <input name="image" value={editedRecipe.image} onChange={handleChange} />
       <input name="ingredients" value={editedRecipe.ingredients} onChange={handleChange} />
       <input name="recipe" value={editedRecipe.recipe} onChange={handleChange} />

@@ -2,7 +2,8 @@ import RecipeCard from "./RecipeCard";
 import ItemDetailsPage from "../pages/ItemDetailsPage";
 import AddRecipeSection from "./AddRecipeSection";
 
-function Recipes({ allRecipes, setAllRecipes }) {
+function Recipes({ allRecipes, setAllRecipes, query}) {
+
   function handleUpdate(updatedRecipe) {
     const updatedRecipeDeliver = allRecipes.map((recipe) => {
       if (recipe.id === updatedRecipe.id) {
@@ -20,10 +21,15 @@ function Recipes({ allRecipes, setAllRecipes }) {
     });
     setAllRecipes(filterRecipes);
   }
+
+  const filteredRecipes = allRecipes.filter((recipe) =>
+  recipe.name.toLowerCase().includes(query.toLowerCase())
+);
+
   return (
     <div>
       <AddRecipeSection allRecipes={allRecipes} setAllRecipes={setAllRecipes} />
-      {allRecipes.map((recipe) => {
+      {filteredRecipes.map((recipe) => {
         return (
           <div key={recipe.id}>
             <RecipeCard

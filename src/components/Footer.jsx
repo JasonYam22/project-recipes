@@ -2,7 +2,7 @@ function Footer() {
   return (
     <div>
       
-      <p>random app that dont work</p>
+      <p> random app that dont work (◡ ‿ ◡ .)</p>
 
     </div>
   )

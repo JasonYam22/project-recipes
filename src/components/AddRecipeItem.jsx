@@ -11,7 +11,7 @@ function AddRecipeItem({ allRecipes, setAllRecipes, setIsModalOpen}) {
     isVegan: false,
     image: "",
   });
-  
+
   function handleChange(event) {
     const { name, value } = event.target;
     setEditedRecipe({ ...editedRecipe, [name]: value });
@@ -42,6 +42,7 @@ function AddRecipeItem({ allRecipes, setAllRecipes, setIsModalOpen}) {
     />
 
     <input
+      type="number"
       name="calories"
       placeholder="Calories"
       value={editedRecipe.calories}

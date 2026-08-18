@@ -4,7 +4,7 @@
     "name": "Spaghetti Bolognese",
     "calories": 620,
     "isVegan": false,
-    "image": "https://images.unsplash.com/photo-1551892374-ecf8754cf8b0",
+    "image": "https://images.unsplash.com/photo-1551892374-ecf8754cf8b0?auto=format&fit=max&w=320&h=320&q=70",
     "ingredients": [
       "200g spaghetti",
       "150g ground beef",
@@ -28,7 +28,7 @@
     "name": "Vegan Buddha Bowl",
     "calories": 430,
     "isVegan": true,
-    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd",
+    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=max&w=320&h=320&q=70",
     "ingredients": [
       "100g cooked quinoa",
       "100g chickpeas",
@@ -53,7 +53,7 @@
     "name": "Chicken Curry",
     "calories": 560,
     "isVegan": false,
-    "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398",
+    "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?auto=format&fit=max&w=320&h=320&q=70",
     "ingredients": [
       "200g chicken breast",
       "1/2 onion",
@@ -78,7 +78,7 @@
     "name": "Avocado Toast",
     "calories": 320,
     "isVegan": true,
-    "image": "https://images.unsplash.com/photo-1541519227354-08fa5d50c44d",
+    "image": "https://images.unsplash.com/photo-1541519227354-08fa5d50c44d?auto=format&fit=max&w=320&h=320&q=70",
     "ingredients": [
       "2 slices whole grain bread",
       "1 ripe avocado",
@@ -100,7 +100,7 @@
     "name": "Beef Burger",
     "calories": 780,
     "isVegan": false,
-    "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd",
+    "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=max&w=320&h=320&q=70",
     "ingredients": [
       "180g ground beef",
       "1 burger bun",
@@ -125,7 +125,7 @@
     "name": "Vegan Tacos",
     "calories": 410,
     "isVegan": true,
-    "image": "https://images.unsplash.com/photo-1552332386-f8dd00dc2f85",
+    "image": "https://images.unsplash.com/photo-1552332386-f8dd00dc2f85?auto=format&fit=max&w=320&h=320&q=70",
     "ingredients": [
       "3 small tortillas",
       "100g black beans",
@@ -150,7 +150,7 @@
     "name": "Grilled Salmon",
     "calories": 470,
     "isVegan": false,
-    "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288",
+    "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=max&w=320&h=320&q=70",
     "ingredients": [
       "200g salmon fillet",
       "1 tbsp olive oil",
@@ -173,7 +173,7 @@
     "name": "Mushroom Risotto",
     "calories": 520,
     "isVegan": true,
-    "image": "https://images.unsplash.com/photo-1476124369491-e7addf5db371",
+    "image": "https://images.unsplash.com/photo-1476124369491-e7addf5db371?auto=format&fit=max&w=320&h=320&q=70",
     "ingredients": [
       "150g arborio rice",
       "150g mushrooms",
@@ -198,7 +198,7 @@
     "name": "Chicken Caesar Salad",
     "calories": 390,
     "isVegan": false,
-    "image": "https://images.unsplash.com/photo-1546793665-c74683f339c1",
+    "image": "https://images.unsplash.com/photo-1546793665-c74683f339c1?auto=format&fit=max&w=320&h=320&q=70",
     "ingredients": [
       "150g chicken breast",
       "100g romaine lettuce",
@@ -221,7 +221,7 @@
     "name": "Vegan Lentil Soup",
     "calories": 280,
     "isVegan": true,
-    "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd",
+    "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=max&w=320&h=320&q=70",
     "ingredients": [
       "150g cooked lentils",
       "1 carrot",
@@ -246,7 +246,7 @@
     "name": "Pepperoni Pizza",
     "calories": 850,
     "isVegan": false,
-    "image": "https://images.unsplash.com/photo-1579751626657-72bc17010498",
+    "image": "https://images.unsplash.com/photo-1579751626657-72bc17010498?auto=format&fit=max&w=320&h=320&q=70",
     "ingredients": [
       "1 pizza dough",
       "100g tomato sauce",
@@ -269,7 +269,7 @@
     "name": "Vegan Pasta Primavera",
     "calories": 460,
     "isVegan": true,
-    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601",
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=max&w=320&h=320&q=70",
     "ingredients": [
       "200g pasta",
       "1/2 zucchini",
@@ -294,7 +294,7 @@
     "name": "Chicken Wrap",
     "calories": 440,
     "isVegan": false,
-    "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f",
+    "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?auto=format&fit=max&w=320&h=320&q=70",
     "ingredients": [
       "1 large tortilla",
       "150g chicken breast",
@@ -318,7 +318,7 @@
     "name": "Falafel Plate",
     "calories": 510,
     "isVegan": true,
-    "image": "https://images.unsplash.com/photo-1547058881-aa0edd92aab3?auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.unsplash.com/photo-1547058881-aa0edd92aab3?auto=format&fit=max&w=320&q=70&h=320",
     "ingredients": [
       "6 falafel balls",
       "80g hummus",
@@ -343,7 +343,7 @@
     "name": "Beef Lasagna",
     "calories": 720,
     "isVegan": false,
-    "image": "https://images.unsplash.com/photo-1574894709920-11b28e7367e3",
+    "image": "https://images.unsplash.com/photo-1574894709920-11b28e7367e3?auto=format&fit=max&w=320&h=320&q=70",
     "ingredients": [
       "6 lasagna sheets",
       "200g ground beef",
@@ -368,7 +368,7 @@
     "name": "Vegan Vegetable Curry",
     "calories": 380,
     "isVegan": true,
-    "image": "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd",
+    "image": "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?auto=format&fit=max&w=320&h=320&q=70",
     "ingredients": [
       "100g chickpeas",
       "1 small potato",
@@ -393,7 +393,7 @@
     "name": "Pancakes",
     "calories": 450,
     "isVegan": false,
-    "image": "https://images.unsplash.com/photo-1528207776546-365bb710ee93",
+    "image": "https://images.unsplash.com/photo-1528207776546-365bb710ee93?auto=format&fit=max&w=320&h=320&q=70",
     "ingredients": [
       "120g flour",
       "1 egg",
@@ -417,7 +417,7 @@
     "name": "Vegan Smoothie Bowl",
     "calories": 290,
     "isVegan": true,
-    "image": "https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38",
+    "image": "https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38?auto=format&fit=max&w=320&h=320&q=70",
     "ingredients": [
       "1 frozen banana",
       "100g frozen berries",
@@ -440,7 +440,7 @@
     "name": "Chicken Ramen",
     "calories": 610,
     "isVegan": false,
-    "image": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624",
+    "image": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=max&w=320&h=320&q=70",
     "ingredients": [
       "150g ramen noodles",
       "150g chicken breast",
@@ -465,7 +465,7 @@
     "name": "Vegan Stir Fry",
     "calories": 350,
     "isVegan": true,
-    "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19",
+    "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=max&w=320&h=320&q=70",
     "ingredients": [
       "100g tofu",
       "1/2 bell pepper",
