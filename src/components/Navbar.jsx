@@ -1,13 +1,25 @@
 import { Link } from "react-router-dom"
 import { useState } from "react"
+import SearchBar from "./SearchBar"
 
-function Navbar() {
+function Navbar({query, setQuery}) {
 
   const [menuOpen,setMenuOpen] = useState(false)
+ const handleSearch = (e) => {
+setQuery(e.target.value);
+ }
 
   return (
     <nav>
-       <h1 className="titleNav">Project Recipes</h1>
+        <h1 className="titleNav">Project Recipes</h1>
+        
+        <input
+        type="text"
+        placeholder="Search recipes..."
+        value={query}
+        onChange={handleSearch}
+      />
+
       <button onClick={() => setMenuOpen(!menuOpen)}>☰</button>
       {menuOpen && (
         <div>

@@ -6,7 +6,7 @@ setQuery(e.target.value);
     return (
         <div className="search-bar container">
             <h2>Search Bar</h2>
-            <input type="text" onChange={handleSearch} value={query}/>
+            <input type="text" placeholder="Search recipes..." onChange={handleSearch} value={query}/>
         </div>
     )
 }
