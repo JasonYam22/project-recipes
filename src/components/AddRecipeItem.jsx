@@ -89,9 +89,4 @@ function AddRecipeItem({ allRecipes, setAllRecipes, setIsModalOpen}) {
   </form>
 );
 }
-<<<<<<< HEAD
 export default AddRecipeItem;
-=======
-
-export default AddRecipeItem;
->>>>>>> 74fd5371cc0f17b3521be015449454e32627c622
