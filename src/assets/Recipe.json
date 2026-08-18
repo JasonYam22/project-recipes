@@ -4,7 +4,7 @@
     "name": "Spaghetti Bolognese",
     "calories": 620,
     "isVegan": false,
-    "image": "https://images.unsplash.com/photo-1551892374-ecf8754cf8b0?auto=format&fit=max&w=320&h=320&q=70",
+    "image": "https://images.unsplash.com/photo-1551892374-ecf8754cf8b0?auto=format&fit=max&w=720&h=720&q=75",
     "ingredients": [
       "200g spaghetti",
       "150g ground beef",
@@ -28,7 +28,7 @@
     "name": "Vegan Buddha Bowl",
     "calories": 430,
     "isVegan": true,
-    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=max&w=320&h=320&q=70",
+    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=max&w=720&h=720&q=75",
     "ingredients": [
       "100g cooked quinoa",
       "100g chickpeas",
@@ -53,7 +53,7 @@
     "name": "Chicken Curry",
     "calories": 560,
     "isVegan": false,
-    "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?auto=format&fit=max&w=320&h=320&q=70",
+    "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?auto=format&fit=max&w=720&h=720&q=75",
     "ingredients": [
       "200g chicken breast",
       "1/2 onion",
@@ -78,7 +78,7 @@
     "name": "Avocado Toast",
     "calories": 320,
     "isVegan": true,
-    "image": "https://images.unsplash.com/photo-1541519227354-08fa5d50c44d?auto=format&fit=max&w=320&h=320&q=70",
+    "image": "https://images.unsplash.com/photo-1541519227354-08fa5d50c44d?auto=format&fit=max&w=720&h=720&q=75",
     "ingredients": [
       "2 slices whole grain bread",
       "1 ripe avocado",
@@ -100,7 +100,7 @@
     "name": "Beef Burger",
     "calories": 780,
     "isVegan": false,
-    "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=max&w=320&h=320&q=70",
+    "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=max&w=720&h=720&q=75",
     "ingredients": [
       "180g ground beef",
       "1 burger bun",
@@ -125,7 +125,7 @@
     "name": "Vegan Tacos",
     "calories": 410,
     "isVegan": true,
-    "image": "https://images.unsplash.com/photo-1552332386-f8dd00dc2f85?auto=format&fit=max&w=320&h=320&q=70",
+    "image": "https://images.unsplash.com/photo-1552332386-f8dd00dc2f85?auto=format&fit=max&w=720&h=720&q=75",
     "ingredients": [
       "3 small tortillas",
       "100g black beans",
@@ -150,7 +150,7 @@
     "name": "Grilled Salmon",
     "calories": 470,
     "isVegan": false,
-    "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=max&w=320&h=320&q=70",
+    "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=max&w=720&h=720&q=75",
     "ingredients": [
       "200g salmon fillet",
       "1 tbsp olive oil",
@@ -173,7 +173,7 @@
     "name": "Mushroom Risotto",
     "calories": 520,
     "isVegan": true,
-    "image": "https://images.unsplash.com/photo-1476124369491-e7addf5db371?auto=format&fit=max&w=320&h=320&q=70",
+    "image": "https://images.unsplash.com/photo-1476124369491-e7addf5db371?auto=format&fit=max&w=720&h=720&q=75",
     "ingredients": [
       "150g arborio rice",
       "150g mushrooms",
@@ -198,7 +198,7 @@
     "name": "Chicken Caesar Salad",
     "calories": 390,
     "isVegan": false,
-    "image": "https://images.unsplash.com/photo-1546793665-c74683f339c1?auto=format&fit=max&w=320&h=320&q=70",
+    "image": "https://images.unsplash.com/photo-1546793665-c74683f339c1?auto=format&fit=max&w=720&h=720&q=75",
     "ingredients": [
       "150g chicken breast",
       "100g romaine lettuce",
@@ -221,7 +221,7 @@
     "name": "Vegan Lentil Soup",
     "calories": 280,
     "isVegan": true,
-    "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=max&w=320&h=320&q=70",
+    "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=max&w=720&h=720&q=75",
     "ingredients": [
       "150g cooked lentils",
       "1 carrot",
@@ -246,7 +246,7 @@
     "name": "Pepperoni Pizza",
     "calories": 850,
     "isVegan": false,
-    "image": "https://images.unsplash.com/photo-1579751626657-72bc17010498?auto=format&fit=max&w=320&h=320&q=70",
+    "image": "https://images.unsplash.com/photo-1579751626657-72bc17010498?auto=format&fit=max&w=720&h=720&q=75",
     "ingredients": [
       "1 pizza dough",
       "100g tomato sauce",
@@ -269,7 +269,7 @@
     "name": "Vegan Pasta Primavera",
     "calories": 460,
     "isVegan": true,
-    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=max&w=320&h=320&q=70",
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=max&w=720&h=720&q=75",
     "ingredients": [
       "200g pasta",
       "1/2 zucchini",
@@ -294,7 +294,7 @@
     "name": "Chicken Wrap",
     "calories": 440,
     "isVegan": false,
-    "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?auto=format&fit=max&w=320&h=320&q=70",
+    "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?auto=format&fit=max&w=720&h=720&q=75",
     "ingredients": [
       "1 large tortilla",
       "150g chicken breast",
@@ -318,7 +318,7 @@
     "name": "Falafel Plate",
     "calories": 510,
     "isVegan": true,
-    "image": "https://images.unsplash.com/photo-1547058881-aa0edd92aab3?auto=format&fit=max&w=320&q=70&h=320",
+    "image": "https://images.unsplash.com/photo-1547058881-aa0edd92aab3?auto=format&fit=max&w=720&h=720&q=75",
     "ingredients": [
       "6 falafel balls",
       "80g hummus",
@@ -343,7 +343,7 @@
     "name": "Beef Lasagna",
     "calories": 720,
     "isVegan": false,
-    "image": "https://images.unsplash.com/photo-1574894709920-11b28e7367e3?auto=format&fit=max&w=320&h=320&q=70",
+    "image": "https://images.unsplash.com/photo-1574894709920-11b28e7367e3?auto=format&fit=max&w=720&h=720&q=75",
     "ingredients": [
       "6 lasagna sheets",
       "200g ground beef",
@@ -368,7 +368,7 @@
     "name": "Vegan Vegetable Curry",
     "calories": 380,
     "isVegan": true,
-    "image": "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?auto=format&fit=max&w=320&h=320&q=70",
+    "image": "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?auto=format&fit=max&w=720&h=720&q=75",
     "ingredients": [
       "100g chickpeas",
       "1 small potato",
@@ -393,7 +393,7 @@
     "name": "Pancakes",
     "calories": 450,
     "isVegan": false,
-    "image": "https://images.unsplash.com/photo-1528207776546-365bb710ee93?auto=format&fit=max&w=320&h=320&q=70",
+    "image": "https://images.unsplash.com/photo-1528207776546-365bb710ee93?auto=format&fit=max&w=720&h=720&q=75",
     "ingredients": [
       "120g flour",
       "1 egg",
@@ -417,7 +417,7 @@
     "name": "Vegan Smoothie Bowl",
     "calories": 290,
     "isVegan": true,
-    "image": "https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38?auto=format&fit=max&w=320&h=320&q=70",
+    "image": "https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38?auto=format&fit=max&w=720&h=720&q=75",
     "ingredients": [
       "1 frozen banana",
       "100g frozen berries",
@@ -440,7 +440,7 @@
     "name": "Chicken Ramen",
     "calories": 610,
     "isVegan": false,
-    "image": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=max&w=320&h=320&q=70",
+    "image": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=max&w=720&h=720&q=75",
     "ingredients": [
       "150g ramen noodles",
       "150g chicken breast",
@@ -465,7 +465,7 @@
     "name": "Vegan Stir Fry",
     "calories": 350,
     "isVegan": true,
-    "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=max&w=320&h=320&q=70",
+    "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=max&w=720&h=720&q=75",
     "ingredients": [
       "100g tofu",
       "1/2 bell pepper",
@@ -483,6 +483,666 @@
       "Add the garlic and vegetables.",
       "Stir fry for 5 to 7 minutes.",
       "Add the soy sauce, mix well and serve."
+    ]
+  },
+  {
+    "id": "21",
+    "name": "Chicken Alfredo",
+    "calories": 690,
+    "isVegan": false,
+    "image": "https://images.unsplash.com/photo-1551892374-ecf8754cf8b0?auto=format&fit=max&w=720&h=720&q=75",
+    "ingredients": [
+      "200g fettuccine",
+      "180g chicken breast",
+      "120ml cream",
+      "40g parmesan",
+      "1 garlic clove",
+      "1 tbsp olive oil",
+      "Salt and pepper"
+    ],
+    "recipe": [
+      "Cook the pasta.",
+      "Season and cook the chicken, then slice it.",
+      "Cook the garlic briefly in the same pan.",
+      "Add cream and parmesan and stir until smooth.",
+      "Add the pasta and chicken.",
+      "Season and serve."
+    ]
+  },
+  {
+    "id": "22",
+    "name": "Vegan Lentil Curry",
+    "calories": 420,
+    "isVegan": true,
+    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=max&w=720&h=720&q=75",
+    "ingredients": [
+      "150g cooked lentils",
+      "150ml coconut milk",
+      "100g tomato",
+      "1/2 onion",
+      "1 garlic clove",
+      "1 tsp curry powder",
+      "1 tsp olive oil"
+    ],
+    "recipe": [
+      "Cook the onion and garlic in olive oil.",
+      "Add curry powder and tomato.",
+      "Add lentils and coconut milk.",
+      "Simmer for 12 minutes.",
+      "Season and serve."
+    ]
+  },
+  {
+    "id": "23",
+    "name": "Turkey Wrap",
+    "calories": 390,
+    "isVegan": false,
+    "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?auto=format&fit=max&w=720&h=720&q=75",
+    "ingredients": [
+      "1 tortilla",
+      "100g turkey breast",
+      "30g lettuce",
+      "40g tomato",
+      "20g cheese",
+      "1 tbsp yogurt sauce"
+    ],
+    "recipe": [
+      "Warm the tortilla.",
+      "Add turkey, lettuce, tomato and cheese.",
+      "Drizzle with yogurt sauce.",
+      "Roll tightly and serve."
+    ]
+  },
+  {
+    "id": "24",
+    "name": "Vegan Chickpea Salad",
+    "calories": 330,
+    "isVegan": true,
+    "image": "https://images.unsplash.com/photo-1541519227354-08fa5d50c44d?auto=format&fit=max&w=720&h=720&q=75",
+    "ingredients": [
+      "150g chickpeas",
+      "80g cucumber",
+      "80g tomato",
+      "30g red onion",
+      "1 tbsp olive oil",
+      "1 tsp lemon juice",
+      "Parsley"
+    ],
+    "recipe": [
+      "Drain the chickpeas.",
+      "Chop the vegetables.",
+      "Combine everything in a bowl.",
+      "Add olive oil and lemon juice.",
+      "Mix and serve."
+    ]
+  },
+  {
+    "id": "25",
+    "name": "Beef Tacos",
+    "calories": 640,
+    "isVegan": false,
+    "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=max&w=720&h=720&q=75",
+    "ingredients": [
+      "3 tortillas",
+      "150g ground beef",
+      "50g lettuce",
+      "50g tomato",
+      "30g cheese",
+      "2 tbsp salsa",
+      "1 tsp taco seasoning"
+    ],
+    "recipe": [
+      "Cook the beef with taco seasoning.",
+      "Warm the tortillas.",
+      "Fill with beef and vegetables.",
+      "Add cheese and salsa.",
+      "Serve immediately."
+    ]
+  },
+  {
+    "id": "26",
+    "name": "Vegan Tomato Pasta",
+    "calories": 460,
+    "isVegan": true,
+    "image": "https://images.unsplash.com/photo-1552332386-f8dd00dc2f85?auto=format&fit=max&w=720&h=720&q=75",
+    "ingredients": [
+      "200g pasta",
+      "200g tomato sauce",
+      "1 garlic clove",
+      "1 tbsp olive oil",
+      "Fresh basil",
+      "Salt and pepper"
+    ],
+    "recipe": [
+      "Cook the pasta.",
+      "Cook garlic briefly in olive oil.",
+      "Add tomato sauce and simmer.",
+      "Add pasta to the sauce.",
+      "Finish with basil and serve."
+    ]
+  },
+  {
+    "id": "27",
+    "name": "Chicken Caesar Salad",
+    "calories": 510,
+    "isVegan": false,
+    "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=max&w=720&h=720&q=75",
+    "ingredients": [
+      "150g chicken breast",
+      "120g romaine lettuce",
+      "30g parmesan",
+      "30g croutons",
+      "2 tbsp Caesar dressing"
+    ],
+    "recipe": [
+      "Cook and slice the chicken.",
+      "Chop the lettuce.",
+      "Combine lettuce, chicken and croutons.",
+      "Add dressing and parmesan.",
+      "Mix and serve."
+    ]
+  },
+  {
+    "id": "28",
+    "name": "Vegan Peanut Noodles",
+    "calories": 560,
+    "isVegan": true,
+    "image": "https://images.unsplash.com/photo-1476124369491-e7addf5db371?auto=format&fit=max&w=720&h=720&q=75",
+    "ingredients": [
+      "180g noodles",
+      "1 tbsp peanut butter",
+      "1 tbsp soy sauce",
+      "1 tsp lime juice",
+      "1 small carrot",
+      "40g cucumber",
+      "1 tsp sesame seeds"
+    ],
+    "recipe": [
+      "Cook the noodles.",
+      "Mix peanut butter, soy sauce and lime juice.",
+      "Slice the vegetables.",
+      "Toss noodles with sauce and vegetables.",
+      "Top with sesame seeds."
+    ]
+  },
+  {
+    "id": "29",
+    "name": "Egg Fried Rice",
+    "calories": 520,
+    "isVegan": false,
+    "image": "https://images.unsplash.com/photo-1546793665-c74683f339c1?auto=format&fit=max&w=720&h=720&q=75",
+    "ingredients": [
+      "180g cooked rice",
+      "2 eggs",
+      "50g peas",
+      "50g carrot",
+      "1 tbsp soy sauce",
+      "1 tsp sesame oil"
+    ],
+    "recipe": [
+      "Heat sesame oil in a pan.",
+      "Scramble the eggs.",
+      "Add vegetables and cook briefly.",
+      "Add rice and soy sauce.",
+      "Stir fry until hot and serve."
+    ]
+  },
+  {
+    "id": "30",
+    "name": "Vegan Sweet Potato Bowl",
+    "calories": 480,
+    "isVegan": true,
+    "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=max&w=720&h=720&q=75",
+    "ingredients": [
+      "180g sweet potato",
+      "100g quinoa",
+      "80g chickpeas",
+      "50g spinach",
+      "1 tbsp tahini",
+      "1 tsp lemon juice"
+    ],
+    "recipe": [
+      "Roast the sweet potato.",
+      "Cook the quinoa.",
+      "Warm the chickpeas.",
+      "Arrange everything in a bowl.",
+      "Mix tahini with lemon and drizzle over the bowl."
+    ]
+  },
+  {
+    "id": "31",
+    "name": "Pesto Chicken Pasta",
+    "calories": 650,
+    "isVegan": false,
+    "image": "https://images.unsplash.com/photo-1579751626657-72bc17010498?auto=format&fit=max&w=720&h=720&q=75",
+    "ingredients": [
+      "200g pasta",
+      "160g chicken breast",
+      "2 tbsp pesto",
+      "30g parmesan",
+      "1 tsp olive oil"
+    ],
+    "recipe": [
+      "Cook the pasta.",
+      "Cook and slice the chicken.",
+      "Mix pasta with pesto.",
+      "Add chicken and parmesan.",
+      "Serve warm."
+    ]
+  },
+  {
+    "id": "32",
+    "name": "Vegan Black Bean Tacos",
+    "calories": 410,
+    "isVegan": true,
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=max&w=720&h=720&q=75",
+    "ingredients": [
+      "3 tortillas",
+      "140g black beans",
+      "50g corn",
+      "50g tomato",
+      "30g lettuce",
+      "2 tbsp salsa",
+      "Lime"
+    ],
+    "recipe": [
+      "Warm the beans and corn.",
+      "Warm the tortillas.",
+      "Fill with beans, vegetables and salsa.",
+      "Finish with lime and serve."
+    ]
+  },
+  {
+    "id": "33",
+    "name": "Greek Chicken Bowl",
+    "calories": 540,
+    "isVegan": false,
+    "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?auto=format&fit=max&w=720&h=720&q=75",
+    "ingredients": [
+      "150g chicken breast",
+      "100g rice",
+      "70g cucumber",
+      "70g tomato",
+      "30g feta",
+      "1 tbsp yogurt sauce"
+    ],
+    "recipe": [
+      "Cook the rice.",
+      "Season and cook the chicken.",
+      "Chop the vegetables.",
+      "Arrange everything in a bowl.",
+      "Add feta and yogurt sauce."
+    ]
+  },
+  {
+    "id": "34",
+    "name": "Vegan Mushroom Pasta",
+    "calories": 500,
+    "isVegan": true,
+    "image": "https://images.unsplash.com/photo-1547058881-aa0edd92aab3?auto=format&fit=max&w=720&h=720&q=75",
+    "ingredients": [
+      "200g pasta",
+      "150g mushrooms",
+      "1 garlic clove",
+      "100ml oat cream",
+      "1 tsp olive oil",
+      "Parsley"
+    ],
+    "recipe": [
+      "Cook the pasta.",
+      "Cook mushrooms and garlic in olive oil.",
+      "Add oat cream.",
+      "Mix in the pasta.",
+      "Finish with parsley and serve."
+    ]
+  },
+  {
+    "id": "35",
+    "name": "Salmon Rice Bowl",
+    "calories": 610,
+    "isVegan": false,
+    "image": "https://images.unsplash.com/photo-1574894709920-11b28e7367e3?auto=format&fit=max&w=720&h=720&q=75",
+    "ingredients": [
+      "150g salmon",
+      "120g rice",
+      "60g cucumber",
+      "50g avocado",
+      "1 tbsp soy sauce",
+      "1 tsp sesame seeds"
+    ],
+    "recipe": [
+      "Cook the rice.",
+      "Cook the salmon.",
+      "Slice cucumber and avocado.",
+      "Arrange everything in a bowl.",
+      "Add soy sauce and sesame seeds."
+    ]
+  },
+  {
+    "id": "36",
+    "name": "Vegan Red Lentil Soup",
+    "calories": 300,
+    "isVegan": true,
+    "image": "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?auto=format&fit=max&w=720&h=720&q=75",
+    "ingredients": [
+      "120g red lentils",
+      "1 carrot",
+      "1/2 onion",
+      "200g tomato",
+      "500ml vegetable stock",
+      "1 tsp cumin"
+    ],
+    "recipe": [
+      "Cook onion and carrot.",
+      "Add cumin and tomato.",
+      "Add lentils and stock.",
+      "Simmer until lentils are soft.",
+      "Season and serve."
+    ]
+  },
+  {
+    "id": "37",
+    "name": "Chicken Quesadilla",
+    "calories": 670,
+    "isVegan": false,
+    "image": "https://images.unsplash.com/photo-1528207776546-365bb710ee93?auto=format&fit=max&w=720&h=720&q=75",
+    "ingredients": [
+      "2 tortillas",
+      "150g chicken",
+      "80g cheese",
+      "50g bell pepper",
+      "30g onion",
+      "2 tbsp salsa"
+    ],
+    "recipe": [
+      "Cook the chicken and vegetables.",
+      "Place filling and cheese on a tortilla.",
+      "Top with the second tortilla.",
+      "Toast on both sides until crisp.",
+      "Slice and serve with salsa."
+    ]
+  },
+  {
+    "id": "38",
+    "name": "Vegan Burrito Bowl",
+    "calories": 590,
+    "isVegan": true,
+    "image": "https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38?auto=format&fit=max&w=720&h=720&q=75",
+    "ingredients": [
+      "120g rice",
+      "120g black beans",
+      "60g corn",
+      "60g tomato",
+      "50g avocado",
+      "2 tbsp salsa",
+      "Lime"
+    ],
+    "recipe": [
+      "Cook the rice.",
+      "Warm the beans and corn.",
+      "Chop tomato and avocado.",
+      "Arrange in a bowl.",
+      "Add salsa and lime."
+    ]
+  },
+  {
+    "id": "39",
+    "name": "Beef and Broccoli",
+    "calories": 570,
+    "isVegan": false,
+    "image": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=max&w=720&h=720&q=75",
+    "ingredients": [
+      "160g beef strips",
+      "150g broccoli",
+      "1 tbsp soy sauce",
+      "1 tsp sesame oil",
+      "1 garlic clove",
+      "100g rice"
+    ],
+    "recipe": [
+      "Cook the rice.",
+      "Sear the beef.",
+      "Add garlic and broccoli.",
+      "Add soy sauce and sesame oil.",
+      "Cook until broccoli is tender and serve with rice."
+    ]
+  },
+  {
+    "id": "40",
+    "name": "Vegan Hummus Wrap",
+    "calories": 370,
+    "isVegan": true,
+    "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=max&w=720&h=720&q=75",
+    "ingredients": [
+      "1 tortilla",
+      "60g hummus",
+      "50g cucumber",
+      "50g tomato",
+      "30g spinach",
+      "30g carrot"
+    ],
+    "recipe": [
+      "Spread hummus over the tortilla.",
+      "Add sliced vegetables.",
+      "Roll tightly.",
+      "Cut in half and serve."
+    ]
+  },
+  {
+    "id": "41",
+    "name": "Shrimp Pasta",
+    "calories": 580,
+    "isVegan": false,
+    "image": "https://images.unsplash.com/photo-1551892374-ecf8754cf8b0?auto=format&fit=max&w=720&h=720&q=75",
+    "ingredients": [
+      "200g pasta",
+      "150g shrimp",
+      "1 garlic clove",
+      "100g cherry tomatoes",
+      "1 tbsp olive oil",
+      "Parsley"
+    ],
+    "recipe": [
+      "Cook the pasta.",
+      "Cook garlic and shrimp in olive oil.",
+      "Add cherry tomatoes.",
+      "Mix with the pasta.",
+      "Finish with parsley and serve."
+    ]
+  },
+  {
+    "id": "42",
+    "name": "Vegan Tofu Curry",
+    "calories": 450,
+    "isVegan": true,
+    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=max&w=720&h=720&q=75",
+    "ingredients": [
+      "150g tofu",
+      "150ml coconut milk",
+      "80g broccoli",
+      "60g bell pepper",
+      "1 tbsp curry paste",
+      "100g rice"
+    ],
+    "recipe": [
+      "Cook the rice.",
+      "Brown the tofu.",
+      "Add vegetables and curry paste.",
+      "Pour in coconut milk.",
+      "Simmer and serve with rice."
+    ]
+  },
+  {
+    "id": "43",
+    "name": "Chicken Teriyaki",
+    "calories": 620,
+    "isVegan": false,
+    "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?auto=format&fit=max&w=720&h=720&q=75",
+    "ingredients": [
+      "170g chicken breast",
+      "120g rice",
+      "80g broccoli",
+      "2 tbsp teriyaki sauce",
+      "1 tsp sesame seeds"
+    ],
+    "recipe": [
+      "Cook the rice.",
+      "Cook the chicken.",
+      "Add broccoli and teriyaki sauce.",
+      "Simmer until glossy.",
+      "Serve over rice with sesame seeds."
+    ]
+  },
+  {
+    "id": "44",
+    "name": "Vegan Avocado Pasta",
+    "calories": 490,
+    "isVegan": true,
+    "image": "https://images.unsplash.com/photo-1541519227354-08fa5d50c44d?auto=format&fit=max&w=720&h=720&q=75",
+    "ingredients": [
+      "200g pasta",
+      "1 avocado",
+      "1 garlic clove",
+      "1 tsp lemon juice",
+      "Fresh basil",
+      "Salt and pepper"
+    ],
+    "recipe": [
+      "Cook the pasta.",
+      "Blend avocado, garlic, lemon and basil.",
+      "Mix the sauce with warm pasta.",
+      "Season and serve."
+    ]
+  },
+  {
+    "id": "45",
+    "name": "Steak and Potatoes",
+    "calories": 760,
+    "isVegan": false,
+    "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=max&w=720&h=720&q=75",
+    "ingredients": [
+      "180g steak",
+      "220g potatoes",
+      "1 tbsp olive oil",
+      "1 garlic clove",
+      "Rosemary",
+      "Salt and pepper"
+    ],
+    "recipe": [
+      "Roast the potatoes with olive oil and rosemary.",
+      "Season the steak.",
+      "Sear to your preferred doneness.",
+      "Rest the steak.",
+      "Serve with potatoes."
+    ]
+  },
+  {
+    "id": "46",
+    "name": "Vegan Quinoa Salad",
+    "calories": 360,
+    "isVegan": true,
+    "image": "https://images.unsplash.com/photo-1552332386-f8dd00dc2f85?auto=format&fit=max&w=720&h=720&q=75",
+    "ingredients": [
+      "120g cooked quinoa",
+      "70g cucumber",
+      "70g tomato",
+      "50g chickpeas",
+      "1 tbsp olive oil",
+      "1 tsp lemon juice"
+    ],
+    "recipe": [
+      "Cook and cool the quinoa.",
+      "Chop the vegetables.",
+      "Combine with chickpeas.",
+      "Add olive oil and lemon juice.",
+      "Mix and serve."
+    ]
+  },
+  {
+    "id": "47",
+    "name": "Chicken Noodle Soup",
+    "calories": 380,
+    "isVegan": false,
+    "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=max&w=720&h=720&q=75",
+    "ingredients": [
+      "120g chicken breast",
+      "80g noodles",
+      "1 carrot",
+      "1 celery stalk",
+      "600ml chicken stock",
+      "Parsley"
+    ],
+    "recipe": [
+      "Cook chicken in the stock.",
+      "Remove and shred the chicken.",
+      "Add carrot, celery and noodles.",
+      "Return chicken to the pot.",
+      "Cook until noodles are tender."
+    ]
+  },
+  {
+    "id": "48",
+    "name": "Vegan Falafel Wrap",
+    "calories": 520,
+    "isVegan": true,
+    "image": "https://images.unsplash.com/photo-1476124369491-e7addf5db371?auto=format&fit=max&w=720&h=720&q=75",
+    "ingredients": [
+      "1 tortilla",
+      "4 falafel",
+      "50g lettuce",
+      "50g tomato",
+      "40g cucumber",
+      "2 tbsp tahini sauce"
+    ],
+    "recipe": [
+      "Warm the falafel and tortilla.",
+      "Add vegetables and falafel.",
+      "Drizzle with tahini sauce.",
+      "Roll and serve."
+    ]
+  },
+  {
+    "id": "49",
+    "name": "Tuna Pasta Salad",
+    "calories": 540,
+    "isVegan": false,
+    "image": "https://images.unsplash.com/photo-1546793665-c74683f339c1?auto=format&fit=max&w=720&h=720&q=75",
+    "ingredients": [
+      "180g pasta",
+      "100g tuna",
+      "60g corn",
+      "60g cucumber",
+      "50g tomato",
+      "1 tbsp yogurt dressing"
+    ],
+    "recipe": [
+      "Cook and cool the pasta.",
+      "Drain the tuna.",
+      "Chop the vegetables.",
+      "Mix everything with dressing.",
+      "Chill or serve immediately."
+    ]
+  },
+  {
+    "id": "50",
+    "name": "Vegan Potato Curry",
+    "calories": 440,
+    "isVegan": true,
+    "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=max&w=720&h=720&q=75",
+    "ingredients": [
+      "220g potatoes",
+      "100g peas",
+      "150ml coconut milk",
+      "1/2 onion",
+      "1 tbsp curry paste",
+      "100g rice"
+    ],
+    "recipe": [
+      "Cook the rice.",
+      "Cook the onion and curry paste.",
+      "Add potatoes and coconut milk.",
+      "Simmer until potatoes are tender.",
+      "Add peas and serve with rice."
     ]
   }
 ]
