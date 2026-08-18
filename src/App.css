@@ -26,8 +26,6 @@
   --danger-hover: #c05656;
 }
 
-/* ---------- GENERAL ---------- */
-
 body {
   margin: 0;
   min-width: 320px;
@@ -83,9 +81,6 @@ button:active {
 .content {
   min-height: calc(100vh - 150px);
 }
-
-/* ---------- NAVBAR ---------- */
-
 nav {
   position: sticky;
   top: 0;
@@ -111,9 +106,6 @@ nav {
 
   color: var(--yellow);
 }
-
-/* Search */
-
 nav input {
   width: min(320px, 35vw);
 
@@ -134,9 +126,6 @@ nav input:focus {
   outline: 2px solid var(--yellow);
   border-color: transparent;
 }
-
-/* Hamburger */
-
 nav > button {
   min-width: 46px;
   height: 42px;
@@ -146,9 +135,6 @@ nav > button {
 
   background: var(--surface-light);
 }
-
-/* Hamburger dropdown */
-
 nav > div {
   position: absolute;
 
@@ -183,9 +169,6 @@ nav > div a:hover {
 nav br {
   display: none;
 }
-
-/* ---------- MAIN PAGE ---------- */
-
 .Main-page {
   padding: 40px 0 60px;
 }
@@ -219,9 +202,6 @@ nav br {
 
   margin-top: 28px;
 }
-
-/* Add recipe button / form */
-
 .Main-page > div > button,
 .Main-page > div > form {
   grid-column: 1 / -1;
@@ -231,12 +211,9 @@ nav br {
 .Main-page > div > form {
   width: min(650px, 100%);
 }
-
-/* Card wrapper */
-
 .Main-page > div > div {
   display: flex;
-  flex-direction: column;
+
 
   min-width: 0;
 
@@ -262,9 +239,6 @@ nav br {
 
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
 }
-
-/* ---------- RECIPE CARD ---------- */
-
 .Recipe {
   display: flex;
   flex-direction: column;
@@ -279,9 +253,6 @@ nav br {
   display: block;
   flex: 1;
 }
-
-/* Image */
-
 .Recipe .recipe-image {
   width: 100%;
   height: 190px;
@@ -300,9 +271,6 @@ nav br {
 
   color: var(--text);
 }
-
-/* Recipe information */
-
 .Recipe p {
   margin: 5px 16px;
 
@@ -310,9 +278,6 @@ nav br {
 
   line-height: 1.4;
 }
-
-/* ---------- CARD BUTTONS ---------- */
-
 .recipe-buttons {
   display: flex;
 
@@ -355,9 +320,6 @@ nav br {
 .recipe-buttons > button:hover {
   background: var(--danger);
 }
-
-/* ---------- FORMS ---------- */
-
 form {
   display: flex;
   flex-direction: column;
@@ -404,9 +366,6 @@ textarea:focus {
 input[type="checkbox"] {
   width: auto;
 }
-
-/* ---------- ADD RECIPE MODAL ---------- */
-
 .modal-overlay {
   position: fixed;
   inset: 0;
@@ -454,9 +413,6 @@ input[type="checkbox"] {
 
   padding: 0;
 }
-
-/* ---------- DETAILS PAGE ---------- */
-
 .item-details-page {
   width: min(820px, 100%);
 
@@ -490,9 +446,6 @@ input[type="checkbox"] {
 
   line-height: 1.7;
 }
-
-/* ---------- ABOUT ---------- */
-
 .about-page {
   width: min(800px, 100%);
 
@@ -533,9 +486,6 @@ input[type="checkbox"] {
 
   font-weight: bold;
 }
-
-/* ---------- FOOTER ---------- */
-
 .App > div:last-child {
   padding: 18px 4%;
 
@@ -551,9 +501,6 @@ input[type="checkbox"] {
 .App > div:last-child p {
   margin: 0;
 }
-
-/* ---------- MOBILE ---------- */
-
 @media (max-width: 700px) {
   .main-layout {
     width: 92%;
@@ -586,4 +533,56 @@ input[type="checkbox"] {
   .about-page {
     padding-top: 30px;
   }
+}
+.Main-page > div > .pagination {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  grid-column: 1 / -1;
+
+  gap: 15px;
+  width: 100%;
+  margin: 25px 0;
+
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  overflow: visible;
+}
+
+.Main-page > div > .pagination:hover {
+  transform: none;
+  border-color: transparent;
+  box-shadow: none;
+}
+
+.pagination button {
+  width: 35px;
+  height: 35px;
+  padding: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid var(--border);
+  border-radius: 6px;
+
+  background: var(--button);
+  color: var(--text);
+
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.pagination span {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.pagination button:disabled {
+  opacity: 0.4;
+  cursor: default;
 }

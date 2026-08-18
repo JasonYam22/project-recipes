@@ -1,8 +1,11 @@
 import RecipeCard from "./RecipeCard";
 import ItemDetailsPage from "../pages/ItemDetailsPage";
 import AddRecipeSection from "./AddRecipeSection";
+import {useState} from "react";
 
 function Recipes({ allRecipes, setAllRecipes, query}) {
+
+  const [currentPage,setCurrentPage] = useState(1);
 
   function handleUpdate(updatedRecipe) {
     const updatedRecipeDeliver = allRecipes.map((recipe) => {
@@ -26,22 +29,49 @@ function Recipes({ allRecipes, setAllRecipes, query}) {
   recipe.name.toLowerCase().includes(query.toLowerCase())
 );
 
-  return (
-    <div>
-      <AddRecipeSection allRecipes={allRecipes} setAllRecipes={setAllRecipes} />
-      {filteredRecipes.map((recipe) => {
-        return (
-          <div key={recipe.id}>
-            <RecipeCard
-              recipe={recipe}
-              handleDeleteButton={handleDeleteButton}
-              handleUpdate={handleUpdate}
-            />
-            </div>
-        );
-      })}
-    </div>
-  );
+  const itemsPerPage = 8;
+  const startIndex = (currentPage - 1) * itemsPerPage;
+
+  const recipesToShow = filteredRecipes.slice(startIndex, startIndex + itemsPerPage)
+  const totalPages = Math.ceil(filteredRecipes.length / itemsPerPage);
+    return (
+  <div>
+    <AddRecipeSection
+      allRecipes={allRecipes}
+      setAllRecipes={setAllRecipes}
+    />
+
+    {recipesToShow.map((recipe) => {
+      return (
+        <div key={recipe.id}>
+          <RecipeCard
+            recipe={recipe}
+            handleDeleteButton={handleDeleteButton}
+            handleUpdate={handleUpdate}
+          />
+        </div>
+      );
+    })}
+
+    <div className="pagination">
+  <button
+    onClick={() => setCurrentPage(currentPage - 1)}
+    disabled={currentPage === 1}
+  >
+    &lt;
+  </button>
+
+  <span>{currentPage}</span>
+
+  <button
+    onClick={() => setCurrentPage(currentPage + 1)}
+    disabled={currentPage === totalPages}
+  >
+    &gt;
+  </button>
+</div>
+  </div>
+);
 }
 
 export default Recipes;
