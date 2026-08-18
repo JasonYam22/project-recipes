@@ -24,7 +24,11 @@ function AddRecipeItem({ allRecipes, setAllRecipes, setIsSectionOpen }) {
       ingredients: editedRecipe.ingredients.split(","),
       recipe: editedRecipe.recipe.split("\n"),
     };
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> 3a6883c4f334b80aaa8bf52a54e782f1c008d2ff
     setAllRecipes([...allRecipes, newRecipe]);
     setIsSectionOpen(false);
   }

@@ -11,18 +11,18 @@ function AboutPage(){
              <h2>Team</h2>
 
             <div className="team-member1">
-             <h3>Your Name</h3>
+             <h3>Leanderson Costa Pacheco</h3>
 
                 <a href="YOUR_GITHUB_LINK" target="_blank">
-                    GitHub
+                    https://github.com/Waskarik
                 </a>
 
             </div>
             <div className="team-member2">
-             <h3>Your Name</h3>
+             <h3>Jason Yam </h3>
 
                 <a href="YOUR_GITHUB_LINK" target="_blank">
-                    GitHub
+                    https://github.com/JasonYam22
                 </a>
                 
             </div>
