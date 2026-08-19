@@ -11,9 +11,9 @@ function RecipeCard({ recipe, handleDeleteButton, handleUpdate }) {
       
       <p>{recipe.calories} Kcals</p>
       <p>
-        {recipe.calories <= 500
+        {recipe.calories <= 200
           ? "ദ്ദി(˵ •̀ ᴗ - ˵ ) ✧ Low Calories"
-          : recipe.calories <= 700
+          : recipe.calories <= 400
             ? "🍲Normal Calories"
             : "(づ•ᴗ•)づᯓ🍕 High on Calories"}
       </p>
