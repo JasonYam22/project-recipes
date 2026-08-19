@@ -5,7 +5,7 @@ function AboutPage(){
     return(
         <main className = "about-page">
 
-            <p>Two dudes sitting in a hot tub, 5 feet apart because they are not </p>
+            <h2>Meet our Team </h2>
 
             <section>
              <h2>Team</h2>
