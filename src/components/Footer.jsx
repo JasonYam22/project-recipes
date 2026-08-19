@@ -2,7 +2,7 @@ function Footer() {
   return (
     <div>
       
-      <p> random app that dont work (◡ ‿ ◡ .)</p>
+      <p> A beautiful footer (◡ ‿ ◡ .)</p>
 
     </div>
   )
